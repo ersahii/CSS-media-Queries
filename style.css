@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 30px;
+    background-color: aqua;
+}
+header > p{
+    font-size: 30px;
+    font-weight: bold;
+}
+nav{
+    padding: 20px;
+    background-color: black;
+}
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+nav > ul > li{
+    list-style-type: none;
+    margin: 0px 50px 0px 50px;
+}
+a{
+    text-decoration: none;
+    color: white
+}
+.main-content{
+    margin:30px;
+}
+.text{
+    clear: both;
+}
+footer{
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width:500px;
+}
+/* CSS for mobile phones */
+@media(max-width:550px){
+    header{
+        padding: 20px;
+    }
+    header > p{
+        font-size: 20px;
+    }
+    nav>ul{
+        display: block;
+    }
+    nav > ul > li{
+        margin:20px;
+        padding: 10px;
+        border-bottom:2px solid white;
+    }
+    img{
+        margin: 20px 10px;
+        height: 400px;
+        width: 400px;
+        display: block;
+    }
+    p{
+        margin: 30px;
+        
+    }
+}
